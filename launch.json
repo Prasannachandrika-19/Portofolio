@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Open GitHub Hosted Landing Page",
+      "url": "https://prasannachandrika-19.github.io/Portofolio/",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thota PrasannaChandrika - Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">PrasannaChandrika</div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero fadeInUp">
+    <div class="hero-text">
+        <h1>Hi, I'm Thota PrasannaChandrika</h1>
+        <p>A passionate Web Developer focused on building responsive and user-friendly websites.</p>
+    </div>
+    <div class="hero-image">
+        <img src="Chandrika.jpg" alt="Thota PrasannaChandrika" />
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about fadeInUp" id="about">
+    <div class="section-container">
+        <h2>About Me</h2>
+        <div class="section-content">
+            <p>I'm a final year BTech (Artificial Intelligence) student with a strong foundation in frontend development. I have a passion for learning modern technologies.</p>
+            <ul>
+                <li>Strong communication and time management skills</li>
+                <li>Quick learner and highly adaptive to team environments</li>
+                <li>Goal-oriented and organized</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="education fadeInUp" id="education">
+    <div class="section-container">
+        <h2>Education</h2>
+        <div class="section-content edu-card">
+            <h3>Bachelor of Artificial Intelligence and Data Science(AI&DS)</h3>
+            <p>Sree Venkateswara College of Engineering, North Rajupalem</p>
+            <p>Expected Graduation: 2026</p>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section class="certifications fadeInUp" id="certifications">
+    <div class="section-container">
+        <h2>Certifications</h2>
+        <div class="section-content">
+            <ul>
+                <li>NPTEL Introduction to Programming in C</li>
+                <li>IBM SkillsBuild Cybersecurity and Cloud Essentials</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services fadeInUp" id="services">
+    <div class="section-container">
+        <h2>My Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Design</h3>
+                <p>Responsive and visually appealing websites using HTML & CSS.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>Interactive user interfaces with a mobile-first approach.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>App Prototypes</h3>
+                <p>Basic mobile app UI development using modern tools.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects fadeInUp" id="projects">
+    <div class="section-container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio made using HTML, CSS, and responsive design.</p>
+            </div>
+            <div class="project-card">
+                <h3>Landing Page</h3>
+                <p>Creative landing page design for a skincare brand.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-form fadeInUp" id="contact">
+    <div class="section-container">
+        <h2>Contact Me</h2>
+        <form action="" method="post">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-icons">
+            <a href="mailto:chandrikathota66@gmail.com" title="Email" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a> 
+            <a href="https://github.com/HBPooja-Dev" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/prasanna-chandrika-08052a2a5" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-note">
+        &copy; 2025 Thota PrasannaChandrika. All rights reserved.
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- Script -->
+<script>
+    const backToTop = document.querySelector('.back-to-top');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTop.style.display = 'flex';
+        } else {
+            backToTop.style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>
